@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Lataska</title>
+
+    <style>
+        *{
+            padding: 0;
+            margin: 0;
+        }
+        .main{
+            display: flex;
+            position: relative;
+        }
+        .main > div{
+            height: 500px;
+            width: 500px;
+
+            position: absolute;
+            left: 50%;
+            right: 50%;
+            transform: translate(-50%, 20%);
+
+            border-radius: 20px;
+
+            /* From https://css.glass */
+            background: rgba(255, 255, 255, 0.06);
+            border-radius: 16px;
+            box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+            backdrop-filter: blur(8.3px);
+            -webkit-backdrop-filter: blur(8.3px);
+            border: 1px solid rgba(255, 255, 255, 0.3);
+
+        }
+        .logo{
+            margin: 20px 150px;
+        }
+        .cards{
+            display: flex;
+            
+        }
+        .card{
+         
+            height: 150px;
+            width: 200px;
+            margin: 30px 30px;
+            border-radius: 20px;
+            display: flex;
+
+            background-color: white;
+            opacity: 75%;
+        }
+   
+    </style>
+</head>
+<body>
+    <div class="main">
+        <img src="https://i.postimg.cc/g0KKB3kb/15156740-1454536534556848-5123292480751579840-o.jpg" alt="" height="100%" width="100%">
+
+        <div>
+
+            <img src="https://i.postimg.cc/nVwY9HPZ/Untitled.png" alt="Lataska" height="150px" width="200px" class="logo">
+
+           
+            <div class="cards">
+            <div class="card card--1"></div>
+            <div class="card card--2"></div>
+        </div>
+        </div>
+    </div>
+</body>
+</html>
